@@ -1,0 +1,49 @@
+
+.container{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+    overflow: hidden;
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    background-image: url(https://images.pexels.com/photos/5716010/pexels-photo-5716010.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.blend{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.whiteBg{
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+}

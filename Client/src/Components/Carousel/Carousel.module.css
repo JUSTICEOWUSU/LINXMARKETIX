@@ -1,0 +1,25 @@
+.container{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.miniCont{
+    overflow: hidden;
+}
+
+.onMobile{
+    display: none !important;
+}
+
+@media all and (width<=500px) {
+    .onLarge{
+        display: none !important;
+        border: 5px solid green;
+    }
+
+    .onMobile{
+        display: block !important;
+    }
+}

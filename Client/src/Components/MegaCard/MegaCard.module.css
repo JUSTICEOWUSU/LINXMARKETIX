@@ -1,0 +1,97 @@
+
+.cont{
+    position: relative;
+    height: 80vh;
+    width: 80%;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid black;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.bld{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.cont img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.innerCard{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width: 35%;
+    height: 230px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.6);
+}
+
+.innerCard button{
+    background: transparent;
+    border: 0.5px solid #fff;
+    border-radius: 3px;
+    padding: 10px;
+    width: 70%;
+    color: #fff;
+    margin-top: 8%;
+    font-size: 18px;
+}
+
+.innerCard button:hover{
+    border: 1px solid blue;
+    color: blue;
+}
+
+.description{
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+@media all and (width <= 900px) {
+    .cont{
+        height: 45vh;
+        width: 89%;
+    }
+
+    .bld{
+        display: none;
+    }
+
+    .innerCard{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        text-align: center;
+    }
+    
+}
+
+@media all and (width <= 325px) {
+    .cont{
+        height: 60vh;
+        width: 90%;
+    }
+
+}

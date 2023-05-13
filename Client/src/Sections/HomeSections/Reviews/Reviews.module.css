@@ -1,0 +1,56 @@
+.container{
+    padding-left: 13%;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #FFF;
+}
+
+
+.opinion{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hr{
+    display: inline-block;
+    color: #000;
+    width: 70px;
+    margin: 0;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.name,
+.role{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.role{
+    color: rgb(28, 28, 80);
+    font-weight: 600;
+}
+
+@media all and (width<=900px) {
+    .container{
+        padding-left: 18%;
+    }
+}
+
+@media all and (width<=500px) {
+    .title{
+        font-size: 1rem;
+    }
+
+    .container{
+        
+        min-height: 60vh;
+        padding-left: 21%;
+    }
+    
+}

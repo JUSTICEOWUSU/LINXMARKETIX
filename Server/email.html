@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fdea870de1.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 70px 20px 20px;
+  background-color: #fff;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.subject {
+  margin: 60px auto;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content p {
+  line-height: 1.5;
+  font-size: 12pt;
+}
+
+.footer{
+  background: rgb(4, 4, 54);
+  color: #fff;
+  min-height: 60vh;
+  padding: 30px ;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.companies-name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.logo{
+  width: 45%;
+}
+
+.line{
+  width: 50% !important;
+  border: none;
+  border-bottom: 0.5px solid rgb(221, 135, 6);
+}
+
+.footer__social{
+  width: 45%;
+  margin: 40px 0;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.footer__social a{
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.fa-brands{
+  font-size: 24px;
+}
+
+.about{
+  display: block;
+  margin: 50px 0;
+}
+
+.about a{
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.btn{
+  background: transparent;
+  color: rgb(221, 135, 6);
+  border-radius: 4px;
+  border: 1px solid rgb(221, 135, 6);
+  text-transform: capitalize;
+  padding: 8px 15px;
+  font-size: 17px;
+  margin-left: 25px;
+}
+
+/* .fa-thin{
+  font-weight: bold;
+} */
+
+.privacy{
+  margin: 40px 0;
+  font-size: 15px;
+}
+
+.bottom-line{
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid rgb(221, 135, 6);
+
+}
+
+.support{
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.pipe{
+  height: 100px;
+  font-size: 25px;
+}
+
+.support a{
+  display: inline-block;
+  text-decoration: none !important;
+  color: #fff;
+  font-size: 19px;
+}
+
+.support-support{
+  margin-right: 4px;
+}
+
+.support-privacy{
+  margin-left: 4px;
+}
+
+.location{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.subscription{
+  max-width: 50%;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 12pt;
+
+}
+
+.YS{
+  margin: 0;
+  padding-bottom: 6px;
+  font-weight: 700;
+}
+
+.names{
+  margin: 0;
+  padding: 0;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          class="logo"
+          src="https://example.com/logo.png"
+          alt="Company Logo"
+        />
+      </div>
+      <h1 class="subject">Professional Company Email</h1>
+
+      <p class="salutation">Dear [Customer Name],</p>
+      <div class="content">
+      <p>
+        We are pleased to introduce you to our company and the services that we
+        offer. At [Company Name], we are committed to providing our customers
+        with the highest level of service and quality products.
+      </p>
+      <p>
+        Our range of services includes [list of services], and we are confident
+        that we can meet all of your [specific need] needs. Our team of experts
+        is dedicated to ensuring that your experience with us is positive and
+        that you receive the best possible results.
+      </p>
+      <p>
+        If you would like to learn more about our services or have any
+        questions, please do not hesitate to contact us. We look forward to
+        hearing from you.
+      </p>
+      <p>
+        Thank you for considering [Company Name] for your [specific need] needs.
+      </p>
+
+      <span class="subscription">
+        <p class="YS">Yours sincerely</p>
+        <p class="names"> Justice Owusu</p>
+        <p class="names"> QUABS</p>
+
+      </span>
+    </div>
+  </div>
+
+      <div class="footer">
+        <div class="companies-name">
+            <h2 className={style.logo}>
+                <span className={style.jowu}>QUABS</span>.AGENCY
+              </h2>
+              <hr class="line">
+        </div>
+        <div class="footer__social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <span class="about">
+            <a href="http://" style="text-decoration: none; color: #fff;" >about us</a>  <span class="pipe">|</span>   <button class="btn" onclick="window.location.href = 'https://www.bluehost.com';"> get in touch  </button>
+        </span>
+        <p class="privacy">This email may contain confidential and/or privileged information intended only for the recipient. If you have received this email in error, please notify the sender and delete it from your system.</p>
+        <hr class="bottom-line">
+        <span class="support">
+          <a href="" style="text-decoration: none; color: #fff;" class="support-support">Support</a>
+          <a href="" style="text-decoration: none; color: #fff;" class="support-privacy">Privacy terms</a>
+        </span>
+        <span class="location">
+          location
+        </span>
+    </div>
+  </body>
+</html>
+
+

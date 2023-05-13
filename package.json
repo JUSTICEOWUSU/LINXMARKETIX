@@ -1,0 +1,17 @@
+{
+  "name": "agency_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run build  --prefix Client",
+    "server": "npm start --prefix server",
+    "Sdev": "npm run dev --prefix server",
+    "start": "npm run client && npm run server",
+    "dev": "npm run client && npm run Sdev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

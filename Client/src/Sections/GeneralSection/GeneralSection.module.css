@@ -1,0 +1,39 @@
+.container {
+    text-align: left;
+    padding-right: 130px;
+
+}
+
+.iconCont {
+    display: block;
+    width: 70px;
+    height: 80px;
+    color: #1c184b ;
+}
+
+h1.title {
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.hr{
+    width: 100px;
+    border: 1px solid black;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+
+.hideHr{
+    display: none;
+}
+
+@media all and (width<=500px) {
+    .container {
+        padding: 0;
+    }
+    
+}

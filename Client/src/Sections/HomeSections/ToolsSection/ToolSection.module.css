@@ -1,0 +1,78 @@
+.ToolSectionCont{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    width: auto;
+    padding-right: 0;
+}
+
+.Content{
+    margin-left: 7%;
+}
+
+.ToolSectionTitle{
+    font-size: 2.4rem;
+    line-height: 1.3;
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 7%;
+    text-align: left;
+}
+
+.ItemsCont{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.item{
+    display: inline-block;
+}
+
+span.Icon{
+    font-size: 3rem;
+}
+
+p.ItemDescription{
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+@media all and (width<=900px) {
+    .Content{
+        margin-left: 12%;
+    }
+}
+
+@media all and (width<=500px) {
+
+    .ItemsCont{
+        align-items: start;
+        text-align: left;
+    }
+
+    p.ItemDescription{
+        padding: 0;
+        margin: 0;
+    }
+
+    .ToolSectionCont{
+        margin-top: 100px;
+    }
+
+    .ToolSectionTitle{
+        font-size: 1.8rem;
+        width: 98%;
+    }
+
+    .Content{
+        margin-left: 20%;
+    }
+
+}

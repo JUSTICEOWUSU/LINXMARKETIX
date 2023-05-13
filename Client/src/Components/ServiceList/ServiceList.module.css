@@ -1,0 +1,22 @@
+.container{
+    position: relative;
+    margin: auto;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ul{
+    padding-left: 0px;
+    font-weight: 100;
+    list-style: square inside;
+}
+
+ul li{
+    padding: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+

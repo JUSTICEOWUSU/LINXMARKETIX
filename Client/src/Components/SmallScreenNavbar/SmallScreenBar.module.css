@@ -1,0 +1,84 @@
+.smallScreenBarCont{
+    display: none;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.3% 5% 0.3% 1.5% !important;
+}
+
+.bars{
+    font-size: 30px !important;
+}
+
+.logoContainer {
+    display: block;
+    height: 55px;
+    padding: 0;
+    margin-left: -30px;
+}
+
+.logoContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.iconSpan{
+    margin: auto;
+    text-align: center;
+}
+
+.toggleCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.toggleItem{
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.NavBtn{
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+    background: #000;
+    text-transform: capitalize;
+    transition: all 1s;
+    font-size: 15px;
+}
+
+@media all and (max-width: 900px) {
+    .smallScreenBarCont{
+        margin-top: 0;
+        display: flex;
+        top:0;
+        position: fixed;
+        z-index: 1000;
+        background: transparent;
+        padding: 2% 5% 2% 17%;
+        border-bottom: 2px solid rgb(167, 161, 161);
+    }
+
+    .logoContainer{
+        font-size: 1.5rem;
+        font-weight: 500;
+        position: absolute;
+        left: 20%;
+    }
+
+    .toggleItem{
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .logoContainer{
+    height: 50px;
+    margin-left: 0;
+    }
+}

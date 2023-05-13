@@ -1,0 +1,73 @@
+
+.background{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    padding: 0;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.blend{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content{
+    padding-left: 13%;
+}
+
+.pbtn{
+    padding: 15px;
+    width: 20%;
+    font-size: 18px;
+    border: 1px solid blue;
+    color: blue;
+    margin-bottom: 40px;
+    background: transparent;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-left: 70%;
+}
+
+.pbtn:hover{
+    background: rgb(37, 37, 105);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+@media all and (width <= 900px) {
+    .content{
+        padding-left: 18%;
+    }
+
+    .pbtn{
+        width: 35%;
+        margin-left: 60%;
+
+    }
+
+    
+}
+
+@media all and (width <= 500px) {
+    .content{
+        padding-left: 21%;
+    }
+
+    .pbtn{
+        width: 90%;
+        margin-left: 0;
+
+    }
+    
+}

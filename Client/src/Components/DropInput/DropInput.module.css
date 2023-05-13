@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.container input{
+    border: none;
+    outline: none;
+}
+
+.label{
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    
+}
+
+.arrow{
+    font-weight: 500;
+    font-size: 2rem;
+    color: blue;
+}
+
+.options{
+    padding-top: 30px ;
+    padding-left: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.options:hover{
+    background:rgba(147, 147, 173, 0.267);
+}
+
+.listCont{
+    max-height: 250px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    z-index: 100;
+    border: 1px solid rgb(212, 212, 212);
+
+}
+
+/* width */
+.listCont::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .listCont::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .listCont::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  @media all and (width <= 900px) {
+   .listCont{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+   }
+
+   .container{
+    margin-bottom: 15px;
+   }
+
+  }
+
+

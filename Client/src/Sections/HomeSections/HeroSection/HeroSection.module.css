@@ -1,0 +1,77 @@
+.HeroSectionContainer{
+    min-height: 100vh;
+    margin-top: 5%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #FFF;
+}
+
+.HeroContentCont{
+    width: 53%;
+    margin-left: 7%;
+}
+
+.HeroTitle{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.HeroContent{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.HeroBtn{
+    background: transparent;
+    border: 1.8px solid #2e1fd1;
+    border-radius: 4px;
+    padding: 9px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 18px;
+    color:#2e1fd1;
+    font-weight: 600;
+}
+
+.HeroBtn:hover{
+    background-color: #11096d;
+    color: #FFF;
+    border:1px solid #FFF;
+}
+
+.HeroBtn:hover .btnArrow{
+    color: #FFF;
+}
+
+.btnArrow{
+    font-size: 1rem;
+}
+
+.main{
+    color: #11096d;
+}
+
+@media all and (width <= 900px) {
+        
+    .HeroContentCont{
+        width: 80%;
+        margin-left: 12%;
+        margin-top: unset;
+    }
+}
+
+@media all and (width<=500px) {
+    .HeroContentCont{
+        width: 98%;
+        padding-top: 100px;
+        margin-left: 20%;
+    }
+
+    .HeroTitle{
+        font-size: 1.8rem;
+    }
+}

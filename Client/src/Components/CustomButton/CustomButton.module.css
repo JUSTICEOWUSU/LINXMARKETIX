@@ -1,0 +1,13 @@
+.HeroBtn{
+    background: transparent;
+    border: 0.5px solid black;
+    border-radius: 4px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.btnArrow{
+    font-size: 1rem;
+}

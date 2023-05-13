@@ -1,0 +1,280 @@
+.ClientCont{
+    margin-left: 13%;
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.Logo{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    display: block;
+}
+
+.Logo img{
+    width: 100%;
+    height: auto;
+}
+
+.Content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Description{
+    width: 55%;
+}
+
+.Description h1{
+    margin: 0;
+    font-size: 2rem;
+    color:#11096d;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.ImageSpan{
+    display: block;
+    position: relative;
+    height: 300px;
+    width: 450px;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+.bnd{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+
+@media all and (width<=900px) {
+  .Content{
+    flex-direction: column-reverse;
+    justify-content: unset;
+  }
+
+  .Description{
+    width: 80%;
+    margin-top: 1%;
+  }
+
+  .ImageSpan{
+    height: 290px;
+    width: 80%;
+  }
+
+  .ClientCont{
+    padding-left: 8.9%;
+  }
+
+  .Logo{
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (width<=500px) {
+
+    .Logo {
+        height: 45px;
+    }
+
+    .ImageSpan{
+        height: 200px;
+        width: 100%;
+      }
+
+      .Description{
+        width: 100%;
+      }
+
+      .Description h1{
+        font-size: 1.7rem;
+      }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ClientCont{
+    padding-left: 13%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+
+
+.Logo{
+    height: 50px;
+    width: 120px;
+    display: block;
+    position: absolute;
+    top: 0;
+    border: 1px solid red;
+}
+
+.Logo img{
+    width: 100%;
+    height: auto;
+}
+
+.bnd{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Hr{
+    display: block;
+    color: #000;
+    width: 70px;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 22px;
+    
+}
+
+.Description{
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 0;
+    width: 55%;
+}
+
+.h1Title{
+    font-size: 2rem;
+    margin-top:90px;
+    margin-bottom: 50px;
+    color:#11096d;
+}
+
+.ImageSpan{
+    display: block;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+img.img{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+} */
+
+/*
+
+@media all and (width<=900px) {
+
+    .ClientCont{
+        padding-left: 18%;
+        height: auto;
+    }
+
+    .ClientCont{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .Content{
+        flex-direction: column-reverse;
+        margin-top: 70px;
+    }
+
+    .Description{
+        width: auto;
+        border: 1px solid red;
+    }
+    
+    .h1Title{
+        font-size: 2.5rem;
+        margin-top: auto;
+    }
+    
+    .ImageSpan{
+    }
+
+    .Logo{
+        display: block;
+        border: 1px solid yellow;
+    }
+        
+}
+
+@media all and (width<=500px) {
+    .bnd{
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .h1Title{
+        font-size: 1.5rem;
+        margin-top:20px;
+    }
+
+    .Logo{
+        margin: 0;
+        top: 0%;
+        left: 12%;
+    }
+
+    .ImageSpan{
+        border: 1px solid green;
+    }
+    
+    .Logo{
+        display: block;
+        position: relative;
+    }
+
+    .ClientCont{
+        min-height: unset;
+        padding-left: 21%;
+    }
+    
+}
+*/

@@ -1,0 +1,78 @@
+.AwardsCont {
+    display: flex;
+    background: #FFF;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 13%;
+    min-height: 100vh;
+}
+
+.content {
+    text-align: left;
+    width: auto;
+}
+
+.cup {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 110px;
+    margin-bottom: 15px;
+}
+
+.cup img {
+    width: 100%;
+    height: 100%;
+}
+
+h1.h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+
+.awardSpan {
+    height: 120px;
+    position: relative;
+    display: inline-block;
+}
+
+.awardImg {
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (width<=900px) {
+    .AwardsCont{
+        padding-left: 18%;
+    }
+}
+
+@media all and (width<=500px) {
+h1.h1{
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+
+.awardSpan{
+    position: relative;
+    padding-left: 2px;
+    padding: 0;
+}
+
+.awardImg {
+    padding: 10px;
+
+}
+
+.AwardsCont {
+    margin-top: 100px;
+    padding-left: 21%;
+}
+
+.cup{
+    margin-bottom: 5px;
+}
+
+}

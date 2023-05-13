@@ -1,0 +1,111 @@
+.TrusteesCont{
+    background: #FFF;
+    padding-left: 13%;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ItemsCont{
+    position: relative;
+}
+
+.items{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.Item{
+    display: block ;
+    height: 100px;
+    padding: 27px;
+}
+
+.Item img{
+    width: 100%;
+    height: 50px;
+}
+
+h2.TitleH2{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+hr.hr{
+    margin:auto;
+    display: block;
+    color: #000;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+}
+
+span.Arrow{
+    font-size: 3rem;
+    width: 3rem;
+   display: block;
+    color: blue;
+}
+
+.Arrow:hover{
+    cursor: pointer;
+}
+
+@media all and (width <= 900px) {
+    hr.hr{
+        display: none;
+    }
+
+    .TrusteesCont{
+        padding-left: 18%;
+    }
+
+    .Content{
+        flex-direction: column;
+    }
+}
+
+@media all and (width <= 500px) {
+    .Content{
+        flex-direction: column;
+    }
+
+    img.Logo{
+        padding: 0;
+    }
+
+    span.Arrow{
+        top: 75%;
+        left: 21%;
+    }
+
+    .TrusteesCont{
+        padding-left: 21%;
+    }
+
+    .Item{
+        
+        height: 80px;
+        padding: 20px;
+    }
+
+    .Item img{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    
+    
+
+}

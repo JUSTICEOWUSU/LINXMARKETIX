@@ -1,0 +1,45 @@
+
+.description{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.cardH1{
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+
+}
+
+.icon{
+    font-size: 3rem;
+    color: rgb(16, 16, 73);
+}
+
+.listCont{
+    background:rgb(220, 216, 238);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.listCont ul{
+    list-style:disc;
+    list-style: inside;
+    padding: 0;
+    margin: 0;
+}
+
+.listCont ul li{
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    font-size: 15px;
+}
+
+@media all and (width <= 500px) {
+    
+}

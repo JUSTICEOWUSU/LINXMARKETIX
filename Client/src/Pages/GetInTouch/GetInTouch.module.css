@@ -1,0 +1,102 @@
+.container{
+    padding-left: 13%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.hero{
+    height: 70vh;
+    display: flex;
+  align-items: end;
+}
+
+.title{
+    font-size: 3rem;
+    width: 50%;
+    margin-top: 8%;
+}
+
+.p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form{
+    width: 90%;
+}
+
+.custom{
+    height: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+.requestOutcome{
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 2s;
+    position: absolute;
+    left: 15%;
+    width:50%
+}
+
+.textLabel{
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+textarea{
+    width: 100%;
+}
+
+.submit{
+    position: relative;
+    margin-top: 20px;
+    width: 80%;
+    text-align: right;
+    display: block;
+    min-height:100px;
+}
+
+.required{
+    font-size: 14px;
+    font-weight: 600;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+@media all and (width <= 900px) {
+    .container{
+        padding-left: 19%;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .hero{
+        align-items: center;
+    }
+
+    .requestOutcome{
+        left: 5%;
+    }
+}
+
+@media all and (width <= 500px) {
+
+    .hero{
+        height: 70vh;
+        align-items: end;
+    }
+
+    .requestOutcome{
+        display: block;
+        position: unset;
+        font-size: 13px;
+        left:0%
+    }
+}

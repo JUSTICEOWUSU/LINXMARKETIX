@@ -1,0 +1,28 @@
+{
+  "name": "agency-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base= ./",
+    "preview": "vite preview",
+    "start": "npm run dev -- --port 3000"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.3.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "vite": "^4.1.0"
+  }
+}

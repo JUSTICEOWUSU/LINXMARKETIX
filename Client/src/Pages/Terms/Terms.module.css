@@ -1,0 +1,84 @@
+.container{
+    padding-left: 13%;
+    overflow: hidden;
+    margin-bottom: 100px;
+    padding-right: 2%;
+}
+
+.title{
+    margin-top: 52vh;
+    margin-bottom: 20vh;
+    font-size: 3rem;
+    width: 50%;
+    font-weight: 600;
+}
+
+.point{
+    font-weight: 430;
+    font-size: 17px;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.insideH{
+    color: blue;
+    text-decoration: underline;
+}
+
+.insideH:hover{
+    cursor: pointer;
+}
+
+.sWarn{
+    font-size: 19px;
+    font-weight: 450;
+}
+
+.list  {
+    list-style-position: inside;
+}
+
+.list li{
+    font-size: 17px;
+    font-weight: 430;
+    margin-bottom: 17px;
+}
+
+.sList{
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.sList li{
+    font-size: 17px;
+    font-weight: 430;
+    margin-bottom: 17px;
+}
+
+@media all and (width <= 900px) {
+    .container{
+        padding-left: 18%;
+    }
+
+    .title{
+        width: 70%;
+        margin-top: 40vh;
+
+
+    }
+}
+
+@media all and (width <= 500px) {
+    .container{
+        padding-left: 21%;
+    }
+
+    .title{
+        width: 100%;
+            margin-top: 37vh;
+    }
+}
