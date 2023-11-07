@@ -53,7 +53,7 @@ hr.hr{
 span.Arrow{
     font-size: 3rem;
     width: 3rem;
-   display: block;
+    display: block;
     color: blue;
 }
 
@@ -87,6 +87,9 @@ span.Arrow{
     span.Arrow{
         top: 75%;
         left: 21%;
+        font-weight: 400;
+        font-size: 2rem;
+        width: 2rem;
     }
 
     .TrusteesCont{

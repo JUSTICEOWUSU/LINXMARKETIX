@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import style from "./Logos.module.css";
 import {BsArrowLeft} from "react-icons/bs"
 import { useSelector, useDispatch } from "react-redux";
@@ -72,6 +72,9 @@ const logoData = [
 ];
 
 function Logos() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const dispatch = useDispatch()
   const { showAndHideLogos } = useSelector(
     (state) => state.logosState

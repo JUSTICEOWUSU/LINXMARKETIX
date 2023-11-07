@@ -20,7 +20,7 @@ function MainJob() {
             src="https://assets2.lottiefiles.com/packages/lf20_wwxe1hfi.json"
             background="transparent"
             speed="1"
-            style={{ width: "120px", height: "120px" }}
+            style={{ width: "100px", height: "100px" }}
             loop
             autoplay
           ></lottie-player>

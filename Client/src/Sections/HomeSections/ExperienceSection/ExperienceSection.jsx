@@ -21,7 +21,7 @@ function ExperienceSection() {
 
             <span className={`${style.Item} col-lg-4 col-md-12`}>
                 <span className={`${style.Icon}`}>200+</span>
-                <span className={`${style.ItemDescription}`}>client</span>
+                <span className={`${style.ItemDescription}`}>clients</span>
             </span>
             </div>
             </div>

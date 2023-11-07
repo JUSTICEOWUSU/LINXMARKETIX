@@ -6,7 +6,7 @@
 }
 
 .miniCont{
-    overflow: hidden;
+    padding: 0 10px !important;
 }
 
 .onMobile{

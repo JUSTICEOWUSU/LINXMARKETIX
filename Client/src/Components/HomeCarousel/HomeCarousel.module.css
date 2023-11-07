@@ -1,0 +1,18 @@
+.carouselContainer {
+    height: 100vh;
+    position: relative;
+  }
+  
+  .carouselImage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 3.8s ease-in-out;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .carouselImage.active {
+    opacity: 1;
+  }
+  

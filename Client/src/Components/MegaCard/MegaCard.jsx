@@ -10,7 +10,8 @@ function MegaCard({src,name,field}) {
     navigate("/services")
   }
   return (
-    <div className={style.cont}>
+    <div className={style.cont} data-aos="fade-up"
+    data-aos-duration="800">
       <div className={style.bld}></div>
         <img src={src} alt={src} />
         <div className={style.innerCard}>

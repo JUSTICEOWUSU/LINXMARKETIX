@@ -28,82 +28,88 @@ function Footer() {
             stay connected
           </button>
         </span>
-          <span className={Style.mediaContMini}>
-            <span className={Style.logoContainer}>
-              <img
-                src="https://i.ibb.co/Qr9cSL6/Linxmarketix-Logo-250-100-px.png"
-                alt="logo"
-              />
-            </span>
-            <p className={Style.loc}>Brooklyn new york</p>
-            <p className={Style.date}>since 2012</p>
+        <span className={Style.mediaContMini}>
+          <span className={Style.logoContainer}>
+            <img
+              src="https://i.ibb.co/Qr9cSL6/Linxmarketix-Logo-250-100-px.png"
+              alt="logo"
+            />
           </span>
-          <span className={Style.socialMedia}>
-            <h3>FOLLOW US:</h3>
-            <div
+          <p className={Style.loc}>
+            444 Alaska Avenue <br />
+            Torrance, CA 90503
+            <br />
+            USA
+          </p>
+          <p className={Style.date}>since 2012</p>
+        </span>
+        <span className={Style.socialMedia}>
+          <h3>FOLLOW US:</h3>
+          <div
+            style={{
+              position: "relative",
+              width: "250px",
+              display: "flex",
+              flexDirection: "row",
+              padding: 0,
+              alignItems: "center",
+            }}
+          >
+            <a
+              href="https://www.linkedin.com/linxmarketix"
               style={{
-                position: "relative",
-                width: "250px",
-                display: "flex",
-                flexDirection: "row",
-                padding: 0,
-                alignItems: "center",
+                textDecoration: "none",
+                width: "40px",
+                height: "40px",
+                display: "block",
+                marginRight: "15%",
+                border:"1px solid #fff", borderRadius:"50%", padding:"5px"
               }}
             >
-              <a
-                href=""
-                style={{
-                  textDecoration: "none",
-                  width: "30px",
-                  height: "30px",
-                  display: "block",
-                  marginRight: "15%",
-                }}
-              >
-                <img
-                  src="https://i.ibb.co/T1XVjq2/71a2f94f39d027be.png"
-                  border="0"
-                  style={{ width: "100%", height: "100%" }}
-                  alt="Link 1"
-                />
-              </a>
-              <a
-                href=""
-                style={{
-                  textDecoration: "none",
-                  width: "30px",
-                  height: "30px",
-                  display: "block",
-                  marginRight: "15%",
-                }}
-              >
-                <img
-                  src="https://i.ibb.co/v3tZx1N/2ecf0f3c2ed09bdb.png"
-                  border="0"
-                  style={{ width: "100%", height: "100%" }}
-                  alt="Link 2"
-                />
-              </a>
-              <a
-                href=""
-                style={{
-                  textDecoration: "none",
-                  width: "30px",
-                  height: "30px",
-                  display: "block",
-                }}
-              >
-                <img
-                  src="https://i.ibb.co/bspfPhV/Facebook-logo.png"
-                  border="0"
-                  style={{ width: "100%", height: "100%" }}
-                  alt="Link 3"
-                />
-              </a>
-            </div>
-          </span>
+              <img
+                src="https://i.ibb.co/T1XVjq2/71a2f94f39d027be.png"
+                style={{ width: "100%", height: "100%", borderRadius:"50%"}}
+                alt="Link 1"
+              />
+            </a>
+            <a
+              href="https://www.twitter.com/linxmarketix"
+              style={{
+                textDecoration: "none",
+                width: "40px",
+                height: "40px",
+                display: "block",
+                marginRight: "15%",
+                border:"1px solid #fff", borderRadius:"50%", padding:"5px"
+              }}
+            >
+              <img
+                src="https://i.ibb.co/v3tZx1N/2ecf0f3c2ed09bdb.png"
+                border="0"
+                style={{ width: "100%", height: "100%"}}
+                alt="Link 2"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/linxmarketix"
+              style={{
+                textDecoration: "none",
+                width: "40px",
+                height: "40px",
+                display: "block",
+                border:"1px solid #fff", borderRadius:"50%", padding:"5px"
+              }}
+            >
+              <img
+                src="https://i.ibb.co/bspfPhV/Facebook-logo.png"
+                border="0"
+                style={{ width: "100%", height: "100%"}}
+                alt="Link 3"
+              />
+            </a>
+          </div>
+        </span>
 
-      
         <span className={Style.privacyBoard}>
           <p className={Style.privacy}>
             © 2023 LINXMARKETIX ALL RIGHTS RESERVED.

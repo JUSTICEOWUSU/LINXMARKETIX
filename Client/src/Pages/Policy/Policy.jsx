@@ -24,8 +24,8 @@ function Policy() {
 
       <p className={style.point}>
         If you have additional questions or require more information about our
-        Privacy Policy, do not hesitate to <span className={style.insideH} onClick={()=>navigate("/contact")}>contact us</span> through email at
-        <span > <b> LXMServices@gmail.com</b></span>
+        Privacy Policy, do not hesitate to <a className={style.insideH} href="mailto:support@linxmarketixmail.com">contact us</a> through email at
+        <span > <b> support@linxmarketixmail.com</b></span>
         
       </p>
 
@@ -50,7 +50,7 @@ function Policy() {
         we ask you to provide your personal information.{" "}
       </p>
       <p className={style.point}>
-        If you <span className={style.insideH} onClick={()=>navigate("/contact")}>contact us</span> directly, we may receive additional information about
+        If you <a className={style.insideH} href="mailto:support@linxmarketixmail.com">contact us</a> directly, we may receive additional information about
         you such as your name, email address, phone number, the contents of the
         message and/or attachments you may send us, and any other information
         you may choose to provide.
@@ -74,7 +74,7 @@ function Policy() {
         <li>
           Communicate with you, either directly or through one of our partners,
           including for customer service, to provide you with updates and other
-          information relating to the webste, and for marketing and promotional
+          information relating to the website, and for marketing and promotional
           purposes
         </li>
         <li>Send you emails</li>
@@ -222,7 +222,7 @@ function Policy() {
 
         <p className={style.point}>
           If you make a request, we have one month to respond to you. If you
-          would like to exercise any of these rights, please <span className={style.insideH} onClick={()=>navigate("/contact")}>contact us</span>.
+          would like to exercise any of these rights, please <a className={style.insideH} href="mailto:support@linxmarketixmail.com">contact us</a>.
         </p>
 
         <h2 className={style.subTitle}>Children’s Information</h2>
@@ -235,7 +235,7 @@ function Policy() {
           Website Name does not knowingly collect any Personal Identifiable
           Information from children under the age of 13. If you think that your
           child provided this kind of information on our website, we strongly
-          encourage you to <span className={style.insideH} onClick={()=>navigate("/contact")}>contact us</span> immediately and we will do our best
+          encourage you to <a className={style.insideH} href="mailto:support@linxmarketixmail.com">contact us</a> immediately and we will do our best
           efforts to promptly remove such information from our records.
         </p>
       </ul>

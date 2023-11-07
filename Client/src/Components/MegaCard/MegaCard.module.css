@@ -64,12 +64,12 @@
     font-weight: 700;
     font-size: 17px;
     margin-top: 25px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 @media all and (width <= 900px) {
     .cont{
-        height: 45vh;
+        height: 350px;
         width: 89%;
     }
 
@@ -84,13 +84,14 @@
         width: 80%;
         height: 80%;
         text-align: center;
+        background: rgba(0,0,0,0.5);
+
     }
     
 }
 
 @media all and (width <= 325px) {
     .cont{
-        height: 60vh;
         width: 90%;
     }
 

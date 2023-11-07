@@ -7,10 +7,6 @@
     padding: 0;
 }
 
-.carousel{
-    width: 100%;
-}
-
 .blend{
     position: absolute;
     top: 0;
@@ -53,10 +49,7 @@
     .pbtn{
         width: 35%;
         margin-left: 60%;
-
-    }
-
-    
+    }   
 }
 
 @media all and (width <= 500px) {
@@ -67,7 +60,5 @@
     .pbtn{
         width: 90%;
         margin-left: 0;
-
-    }
-    
+    }  
 }

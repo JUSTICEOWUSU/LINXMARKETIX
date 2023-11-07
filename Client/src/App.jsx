@@ -16,14 +16,10 @@ const Policy= lazy(() => import('./Pages/Policy/Policy'));
 const Terms= lazy(() => import('./Pages/Terms/Terms'));
 const Client = lazy(() => import('./Sections/HomeSections/Clients/Client'));
 
-
-
 function Loading (){
   return(
     <div className={style.LContainer}>
-
       <div className={style.ldsRipple}><div></div><div></div></div>
-
     </div>
   )
 }
@@ -32,7 +28,6 @@ function App() {
 
   useEffect(() => {
     Aos.init({
-      duration: 2000
     })
   }, []);
 

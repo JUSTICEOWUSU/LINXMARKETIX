@@ -3,8 +3,10 @@ import style from "./Work.module.css";
 import MegaCard from "../../Components/MegaCard/MegaCard";
 import { BsArrowUpRight } from "react-icons/bs";
 import { ProjectHero } from "../../Components/HeroContent/Hero";
+import { useNavigate } from "react-router-dom";
 
 function Work() {
+  const navigate = useNavigate()
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -12,45 +14,12 @@ function Work() {
   return (
     <div>
       <div className={style.background}>
-        <div
-          id="carouselExampleSlidesOnly"
-          className={`carousel slide h-100 ${style.carousel}`}
-          data-bs-ride="carousel"
-        >
-          <div className={`carousel-inner h-100 ${style.inner}`}>
-            <div
-              className={`carousel-item active h-100 `}
-              data-bs-interval="10000"
-            >
-              <img
+      <img
                 src="https://img.freepik.com/free-photo/still-life-business-roles-with-various-mechanism-pieces_23-2149352652.jpg?size=626&ext=jpg&ga=GA1.1.1594462479.1678118375&semt=sph"
                 className="d-block w-100 h-100"
                 alt="..."
               />
-            </div>
-            <div className="carousel-item h-100" data-bs-interval="10000">
-              <img
-                src="https://img.freepik.com/premium-photo/hand-closer-up-hands-businessmen-stacking-wooden-blocks-into-steps_34936-1947.jpg?size=626&ext=jpg&ga=GA1.1.1594462479.1678118375&semt=sph"
-                className="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item h-100" data-bs-interval="10000">
-              <img
-                src="https://img.freepik.com/free-photo/creative-company-professional-movie-footage-editor-sitting-multi-monitor-workstation-while-editing-film-frames-expert-videographer-improving-video-quality-using-specialized-software_482257-41680.jpg?size=626&ext=jpg&ga=GA1.1.1594462479.1678118375&semt=ais"
-                className="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item h-100" data-bs-interval="10000">
-              <img
-                src="https://img.freepik.com/premium-photo/businessman-team-analyzing-financial-statement-finance-task-with-smart-phone-laptop-tablet-wealth-management-concept_265022-8157.jpg?size=626&ext=jpg&ga=GA1.2.1594462479.1678118375&semt=ais"
-                className="d-block w-100"
-                alt="accounting"
-              />
-            </div>
-          </div>
-        </div>
+
         <div className={style.blend}></div>
       </div>
       <div className={style.content}>
@@ -217,7 +186,7 @@ function Work() {
           />
         </div>
 
-        <button className={style.pbtn}>
+        <button className={style.pbtn} onClick={()=>navigate("/contact")}>
           ... more <BsArrowUpRight />
         </button>
       </div>

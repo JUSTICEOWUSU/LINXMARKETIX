@@ -7,7 +7,7 @@ import { GiClapperboard, GiPencilBrush } from "react-icons/gi";
 import { SiGooglemarketingplatform } from "react-icons/si";
 import { BiMoneyWithdraw } from "react-icons/bi";
 import { IoMdCodeWorking } from "react-icons/io";
-import Minicarousel from "../../Components/Carousel/Minicarousel";
+import {MiniCarousel} from "../../Components/Carousel/Carousel";
 
 const Vid = [
   "Video Editing",
@@ -146,7 +146,7 @@ function Services() {
       </div>
       <span className={style.sCa}>
       <h1>Recent Work</h1>
-      <Minicarousel />
+      <MiniCarousel />
       </span>
     </div>
   );

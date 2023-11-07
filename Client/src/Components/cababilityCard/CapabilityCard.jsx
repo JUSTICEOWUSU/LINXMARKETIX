@@ -1,6 +1,5 @@
 import React from 'react'
 import style from "./CapabilityCard.module.css"
-import {GiClapperboard} from 'react-icons/gi'
 
 function CapabilityCard({list,title,description,icon}) {
   return (
