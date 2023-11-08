@@ -1,12 +1,16 @@
 const express = require('express');
 require('dotenv').config();
 const nodemailer = require('nodemailer');
+const cors = require('cors');
 const path = require('path');
 
 // create an Express app
 const app = express();
 
 // configure middleware to parse JSON request bodies
+app.use(cors({
+  origin: 'https://linxmarketix.vercel.app'
+}));
 app.use(express.json());
 
 // configure a route to handle form submissions
