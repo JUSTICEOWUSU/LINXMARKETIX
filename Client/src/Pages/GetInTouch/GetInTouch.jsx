@@ -144,7 +144,7 @@ function GetInTouch() {
 
     // send form data to the server using axios
     axios
-      .post("/contact", {
+      .post("https://linxmarketix-server.vercel.app/contact", {
         ...inputs,
         service,
         budget,
