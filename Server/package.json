@@ -17,14 +17,6 @@
     "nodemon": "^2.0.22"
   },
   "author": "Justice Owusu",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JUSTICEOWUSU/LINXMARKETIX.git"
-  },
-  "homepage": "https://github.com/JUSTICEOWUSU/LINXMARKETIX",
-  "bugs": {
-    "url": "https://github.com/JUSTICEOWUSU/LINXMARKETIX/issues"
-  },
   "engines": {
     "node": "14.x"
   }
